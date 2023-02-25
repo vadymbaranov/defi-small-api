@@ -11,11 +11,14 @@ export async function getBalance(
     const contract = new web3.eth.Contract(abi, contractAddress);
     const coinBalance = await contract.methods.balanceOf(walletAddress).call();
     console.log(coinBalance);
-    const format = web3.utils.fromWei(
-      web3.utils.toBN(coinBalance),
-      'ether'
-    );
-  
+
+    if (coinBalance > 0 && typeof coinBalance !== 'undefined') {
+      const format = web3.utils.fromWei(
+        web3.utils.toBN(coinBalance),
+        'ether'
+      );
+    }
+
     return format;
   } catch(err) {
     console.log(err);

@@ -9644,7 +9644,7 @@
     "platforms": { "ethereum": "0x7c5d5100b339fe7d995a893af6cb496b9474373c" }
   },
   {
-    "name": "Loopring",
+    "name": "Loopring V2",
     "platforms": { "ethereum": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd" }
   },
   {
@@ -18246,5 +18246,197 @@
   {
     "name": "ZYX",
     "platforms": { "ethereum": "0xf974b5f9ac9c6632fee8b76c61b0242ce69c839d" }
+  },
+  {
+    "name": "Ebakus",
+    "platforms": { "ethereum": "0xBDDab785b306BCD9fB056Da189615Cc8eCE1D823" }
+  },
+  {
+    "name": "Amber",
+    "platforms": { "ethereum": "0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE" }
+  },
+  {
+    "name": "Silverway",
+    "platforms": { "ethereum": "0x4c1C4957D22D8F373aeD54d0853b090666F6F9De" }
+  },
+  {
+    "name": "fungame.click",
+    "platforms": { "ethereum": "0x4b4F19bB433D4EDD2B4687dA36492d37Ea63BFBb" }
+  },
+  {
+    "name": "fake ApeCoin",
+    "platforms": { "ethereum": "0xb0B1d4732eFE32AEA466ED6BC3c79181eD4810c4" }
+  },
+  {
+    "name": "Shaggy Coin",
+    "platforms": { "ethereum": "0x5245789633B5D0eBD21e393c3d7eAD22d5Ad1517" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0xEd3DE063C36bc2796dDEB02a65fC37BE1B50B81D" }
+  },
+  {
+    "name": "fake AAVE",
+    "platforms": { "ethereum": "0x39cf57b4dECb8aE3deC0dFcA1E2eA2C320416288" }
+  },
+  {
+    "name": "amto.site",
+    "platforms": { "ethereum": "0xa6D1537B3699905ac18A10718b282661425fD662" }
+  },
+  {
+    "name": "fake Tether",
+    "platforms": { "ethereum": "0x141c7c124E574A9Be8a2EE654aC3B0ddC2D884bE" }
+  },
+  {
+    "name": "Etherwave",
+    "platforms": { "ethereum": "0x916db810de68A6EA1F3BA9aDa7Ba87A5dF3fcF58" }
+  },
+  {
+    "name": "Bulleon Promo Token",
+    "platforms": { "ethereum": "0xD4DE05944572D142fBf70F3f010891A35AC15188" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x4AF9ab04615cB91e2EE8cbEDb43fb52eD205041B" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0xAF0b2fBeDd5d1Fda457580FB3DAbAD1F5C8bBC36" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x120aA018634F555484c088c8da80F75Aa07E004F" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x68Ca006dB91312Cd60a2238Ce775bE5F9f738bBa" }
+  },
+  {
+    "name": "Promodl",
+    "platforms": { "ethereum": "0xaF47ebBd460F21c2b3262726572CA8812d7143B0" }
+  },
+  {
+    "name": "fake LUNA",
+    "platforms": { "ethereum": "0x471c3A7f132bc94938516CB2Bf6f02C7521D2797" }
+  },
+  {
+    "name": "fake ETH",
+    "platforms": { "ethereum": "0x1f068a896560632a4d2E05044BD7F03834f1A465" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x219B9040eB7D8d8c2E8E84B87CE9ac1C83071980" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x695d4e4936C0DE413267C75ca684fc317e03A819" }
+  },
+  {
+    "name": "Vital ETH",
+    "platforms": { "ethereum": "0x708B63545467a9bCFB67aF92299102c650E34a0e" }
+  },
+  {
+    "name": "Owlswap.org",
+    "platforms": { "ethereum": "0x4E0b2A80E158f8d28a2007866ab80B7f63bE6076" }
+  },
+  {
+    "name": "Loopring",
+    "platforms": { "ethereum": "0xEF68e7C694F40c8202821eDF525dE3782458639f" }
+  },
+  {
+    "name": "Betra coin",
+    "platforms": { "ethereum": "0xE4c67A5fEE1f040a048EE7Eb89eb29Aff45001a1" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0xF84Ea569eAAebd634cAc7944058f1B17386AA56e" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x31A240648e2baf4f9F17225987f6f53fceB1699A" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x17a10104CBC1eD155D083eaD9FCF5C3440bb50e8" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x17158E788771EbFf629e00e9b0B62A9C921e2134" }
+  },
+  {
+    "name": "Tronix",
+    "platforms": { "ethereum": "0xf230b790E05390FC8295F4d3F60332c93BEd42e2" }
+  },
+  {
+    "name": "KickToken",
+    "platforms": { "ethereum": "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E" }
+  },
+  {
+    "name": "lenusd.shop",
+    "platforms": { "ethereum": "0xBA89375bAE9b3DE92442e9C037d4303A6e4FB086" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x2fF2B86C156583b1135C584fd940A1996FA4230b" }
+  },
+  {
+    "name": "lenusd.shop #2",
+    "platforms": { "ethereum": "0x70c18F2fDcb00d27494f767503874788e35c9940" }
+  },
+  {
+    "name": "Bermuda Triangle",
+    "platforms": { "ethereum": "0x617a36Bd36ef8778AA1F12bC32739bFc96cb76E1" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x0bF377fb3b5F1dD601e693B8fAF6b0bD249f37D3" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x82dfDB2ec1aa6003Ed4aCBa663403D7c2127Ff67" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x956F824B5a37673c6fC4a6904186cB3BA499349B" }
+  },
+  {
+    "name": "fake Tether",
+    "platforms": { "ethereum": "0x7379cBCe70bBA5a9871f97d33B391AFBA377e885" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x3D201c408B9EaDDC76E27AD45D986c4d9C13E0c6" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x38715Ab4b9d4e00890773D7338d94778b0dFc0a8" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x8eB3FecAAA963C86d9b49004d9f28092f1Db3D6c" }
+  },
+  {
+    "name": "Bob's Repair Free",
+    "platforms": { "ethereum": "0xD3acE836E47F7cF4948dFfD8ca2937494C52580c" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0x2CEeE24f8D03fC25648c68C8e6569AA0512F6Ac3" }
+  },
+  {
+    "name": "",
+    "platforms": { "ethereum": "0xB688d06d858E092EBB145394a1BA08C7a10E1F56" }
+  },
+  {
+    "name": "Time-Honored Brand Chain",
+    "platforms": { "ethereum": "0x04ad70466A79Dd1251F22Ad426248088724ff32B" }
+  },
+  {
+    "name": "Spingame.me",
+    "platforms": { "ethereum": "0xCdC94877E4164D2e915fC5E8310155D661A995F1" }
+  },
+  {
+    "name": "Etheal Promo",
+    "platforms": { "ethereum": "0x7B2f9706CD8473B4F5B7758b0171a9933Fc6C4d6" }
   }
 ]

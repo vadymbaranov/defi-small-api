@@ -5,7 +5,7 @@
 // const walletAddress: string = process.env.TEST_WALLET_ADDRESS || '';
 
 import Web3 from 'web3';
-import { AbiItem } from 'web3-utils';
+
 
 const ETHEREUM_NODE_URL: string = 'https://mainnet.infura.io/v3/378aaacfe1ef4906ace7f9b9c50bfcbb';
 
@@ -15,7 +15,7 @@ export const FIRST_TEST_WALLET_ADDRESS: string = '0xA145ac099E3d2e9781C9c848249E
 // Found at https://etherscan.io/address/0xbe0eb53f46cd790cd13851d5eff43d12404d33e8 (Public name: Binance)
 export const SECOND_TEST_WALLET_ADDRESS: string = '0xBE0eB53F46cd790Cd13851d5EFf43D12404d33E8'
 
-export const tokenSource = 'https://raw.githubusercontent.com/viaprotocol/tokenlists/main/tokenlists/ethereum.json';
+export const tokenSource = 'https://www.coingecko.com/en/api/documentation';
 
 const web3Provider = new Web3.providers.HttpProvider(ETHEREUM_NODE_URL);
 export const web3 = new Web3(web3Provider);
@@ -27,6 +27,7 @@ web3.eth.getBlockNumber().then((result) => {
 
 export const walletDirName: string = 'public';
 export const walletFileName: string = 'wallet-balance.json';
+export const whaleWalletFileName: string = 'whale-wallet-balance.json';
 
 export const balanceOfAbi = [
   {
@@ -38,10 +39,14 @@ export const balanceOfAbi = [
   },
 ];
 
-// const balance = web3.eth.getBalance(FIRST_TEST_WALLET_ADDRESS, (err, bal) => {
-//   const balanceT = web3.utils.fromWei(bal, 'ether');
-//   console.log(balanceT);
-// });
+// const balance = await web3.eth.getBalance(FIRST_TEST_WALLET_ADDRESS);
+
+// const properBalanceView = web3.utils.fromWei(
+//   web3.utils.toBN(balance),
+//   'ether'
+// );
+
+// console.log(properBalanceView);
 
 
 

@@ -24,4 +24,5 @@ export async function getERC20() {
   return await fs.writeFile(resultFilePath, JSON.stringify(tokens));
 }
 
+// The next line is commented to prevent any changes to existing ERC20-coins.json file as it contains additional toke addresses and to prevent the function from running everytime you start the server
 // getERC20();

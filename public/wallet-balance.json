@@ -1,1 +1,163 @@
-[{"name":"Odyssey","contract":"0x4092678e4e78230f46a1534c0fbc8fa39780892b","balance":"5"},{"name":"Sai","contract":"0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359","balance":"1.1"},{"name":"IDK","contract":"0x61fd1c62551850d0c04c76fce614cbced0094498","balance":"0.00000001"},{"name":"HEX","contract":"0x2b591e99afe9f32eaa6214f7b7629768c40eeb39","balance":"0.00000001"},{"name":"Livepeer","contract":"0x58b6a8a3302369daec383334672404ee733ab239","balance":"2.064459968522800186"},{"name":"GSENetwork","contract":"0xe530441f4f73bdb6dc2fa5af7c3fc5fd551ec838","balance":"0.00000000000092"},{"name":"Loopring","contract":"0xbbbbca6a901c926f240b89eacb641d8aec7aeafd","balance":"5"},{"name":"ETH","contract":"","balance":"2366788536000"}]
+[
+  {
+    "name": "GSENetwork",
+    "contract": "0xe530441f4f73bdb6dc2fa5af7c3fc5fd551ec838",
+    "balance": "0.00000000000092"
+  },
+  {
+    "name": "HEX",
+    "contract": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+    "balance": "0.00000001"
+  },
+  {
+    "name": "IDK",
+    "contract": "0x61fd1c62551850d0c04c76fce614cbced0094498",
+    "balance": "0.00000001"
+  },
+  {
+    "name": "Livepeer",
+    "contract": "0x58b6a8a3302369daec383334672404ee733ab239",
+    "balance": "2.064459968522800186"
+  },
+  {
+    "name": "Loopring V2",
+    "contract": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+    "balance": "5"
+  },
+  {
+    "name": "Odyssey",
+    "contract": "0x4092678e4e78230f46a1534c0fbc8fa39780892b",
+    "balance": "5"
+  },
+  {
+    "name": "Sai",
+    "contract": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+    "balance": "1.1"
+  },
+  {
+    "name": "fake LUNA",
+    "contract": "0x471c3A7f132bc94938516CB2Bf6f02C7521D2797",
+    "balance": "250457"
+  },
+  {
+    "name": "",
+    "contract": "0x31A240648e2baf4f9F17225987f6f53fceB1699A",
+    "balance": "0.000000000000000777"
+  },
+  {
+    "name": "fake ETH",
+    "contract": "0x1f068a896560632a4d2E05044BD7F03834f1A465",
+    "balance": "350"
+  },
+  {
+    "name": "fake ApeCoin",
+    "contract": "0xb0B1d4732eFE32AEA466ED6BC3c79181eD4810c4",
+    "balance": "10254"
+  },
+  {
+    "name": "",
+    "contract": "0xEd3DE063C36bc2796dDEB02a65fC37BE1B50B81D",
+    "balance": "25000"
+  },
+  {
+    "name": "fake AAVE",
+    "contract": "0x39cf57b4dECb8aE3deC0dFcA1E2eA2C320416288",
+    "balance": "800"
+  },
+  {
+    "name": "fake Tether",
+    "contract": "0x141c7c124E574A9Be8a2EE654aC3B0ddC2D884bE",
+    "balance": "400"
+  },
+  {
+    "name": "",
+    "contract": "0xF84Ea569eAAebd634cAc7944058f1B17386AA56e",
+    "balance": "0.0000000000000008"
+  },
+  {
+    "name": "Silverway",
+    "contract": "0x4c1C4957D22D8F373aeD54d0853b090666F6F9De",
+    "balance": "1"
+  },
+  {
+    "name": "Tronix",
+    "contract": "0xf230b790E05390FC8295F4d3F60332c93BEd42e2",
+    "balance": "0.000000000026"
+  },
+  {
+    "name": "Ebakus",
+    "contract": "0xBDDab785b306BCD9fB056Da189615Cc8eCE1D823",
+    "balance": "466.688607253320430701"
+  },
+  {
+    "name": "Amber",
+    "contract": "0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE",
+    "balance": "0.1"
+  },
+  {
+    "name": "Etherwave",
+    "contract": "0x916db810de68A6EA1F3BA9aDa7Ba87A5dF3fcF58",
+    "balance": "213"
+  },
+  {
+    "name": "",
+    "contract": "0x219B9040eB7D8d8c2E8E84B87CE9ac1C83071980",
+    "balance": "1000"
+  },
+  {
+    "name": "",
+    "contract": "0x2fF2B86C156583b1135C584fd940A1996FA4230b",
+    "balance": "1677337163"
+  },
+  {
+    "name": "",
+    "contract": "0xAF0b2fBeDd5d1Fda457580FB3DAbAD1F5C8bBC36",
+    "balance": "258542"
+  },
+  {
+    "name": "",
+    "contract": "0x695d4e4936C0DE413267C75ca684fc317e03A819",
+    "balance": "666"
+  },
+  {
+    "name": "",
+    "contract": "0x956F824B5a37673c6fC4a6904186cB3BA499349B",
+    "balance": "0.000000000000007"
+  },
+  {
+    "name": "",
+    "contract": "0x3D201c408B9EaDDC76E27AD45D986c4d9C13E0c6",
+    "balance": "0.00000000000000175"
+  },
+  {
+    "name": "",
+    "contract": "0x2CEeE24f8D03fC25648c68C8e6569AA0512F6Ac3",
+    "balance": "0.000298131"
+  },
+  {
+    "name": "Bermuda Triangle",
+    "contract": "0x617a36Bd36ef8778AA1F12bC32739bFc96cb76E1",
+    "balance": "0.01"
+  },
+  {
+    "name": "",
+    "contract": "0x82dfDB2ec1aa6003Ed4aCBa663403D7c2127Ff67",
+    "balance": "250000"
+  },
+  {
+    "name": "Bob's Repair Free",
+    "contract": "0xD3acE836E47F7cF4948dFfD8ca2937494C52580c",
+    "balance": "1500"
+  },
+  {
+    "name": "",
+    "contract": "0x4AF9ab04615cB91e2EE8cbEDb43fb52eD205041B",
+    "balance": "242321"
+  },
+  {
+    "name": "Time-Honored Brand Chain",
+    "contract": "0x04ad70466A79Dd1251F22Ad426248088724ff32B",
+    "balance": "0.0000000000000215"
+  },
+  { "name": "ETH", "contract": "", "balance": "0.000002366788536" }
+]
