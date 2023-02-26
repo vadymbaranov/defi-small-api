@@ -8,13 +8,18 @@ Technologies, frameworks and libraries used:
 - node-cron.
 
 To use this repo locally you need to:
-    - Fork the repo
-    - Download the repo with git clone
-    - Navigate to the folder you cloned the repo to
-    - Make sure you have Node v14 installed and active
-    - Run `npm install` or `npm i` in your terminal through VS Code or any other terminal, just make sure you are currently in the repo folder
-    - Run `npx ts-node src/server.ts` to start the server
-    - Run `npm start` - the project will start in dev mode with nodemon watching any changes
+- Fork the repo
+- Download the repo with git clone
+- Navigate to the folder you cloned the repo to
+- Make sure you have Node v14 installed and active
+- Run `npm install` or `npm i` in your terminal through VS Code or any other terminal, just make sure you are currently in the repo folder
+- Run `npx ts-node src/server.ts` to start the server
+- Run `npm start` - the project will start in dev mode with nodemon watching any changes
+
+# DOCKER
+
+Additionally you can download docker image from Docker hub and run it locally to exclude any local conflicts.
+- [DOCKER HUB LINK](https://hub.docker.com/repository/docker/largoxoxo/defi-api/general)
 
 By default server starts at `port = 5000` but you can change this behaviour and enter your port of choice in `src/server.ts` at line 7 in variable `PORT`.
 
@@ -40,3 +45,4 @@ Both of them can be found in `src/config/config.ts` file along with other `web3.
 Please be advised that running the function located in `getERC20Tokens.ts` will overwrite the `ERC20-coins.json` file which will lead to the manually added data deletion and less balance results provided.
 
 The cron job for balance checks is created in `src/helpers/balanceJob.ts` file and is called in the `src/server.ts` file.
+
