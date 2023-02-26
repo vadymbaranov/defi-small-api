@@ -7,7 +7,6 @@ export const getWalletBalance = async (req: Request, res: Response) => {
   const { address } = req.params;
 
   const validEthereumAddress = await isValid(address);
-  console.log(validEthereumAddress);
 
   if (!validEthereumAddress) {
     res.status(400).send('Please check the wallet address entered. The server accepts only Ethereum network addresses.')

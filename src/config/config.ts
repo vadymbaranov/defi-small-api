@@ -29,6 +29,7 @@ export const walletDirName: string = 'public';
 export const walletFileName: string = 'wallet-balance.json';
 export const whaleWalletFileName: string = 'whale-wallet-balance.json';
 
+// ABI to check the balance of ERC20 coins
 export const balanceOfAbi = [
   {
       constant: true,
@@ -38,34 +39,3 @@ export const balanceOfAbi = [
       type: "function",
   },
 ];
-
-// const balance = await web3.eth.getBalance(FIRST_TEST_WALLET_ADDRESS);
-
-// const properBalanceView = web3.utils.fromWei(
-//   web3.utils.toBN(balance),
-//   'ether'
-// );
-
-// console.log(properBalanceView);
-
-
-
-// const ethereum = '0xb705268213d593b8fd88d3fdeff93aff5cbdcfae';
-
-// const contract = new web3.eth.Contract(balanceOfAbi as AbiItem[], ethereum);
-// const getBalance = async () => {
-//   const res = await contract.methods.balanceOf(FIRST_TEST_WALLET_ADDRESS).call();
-//   const format = web3.utils.fromWei(
-//     web3.utils.toBN(res),
-//     'ether'
-//   );
-//   console.log(format);
-// };
-
-// getBalance();
-// try {
-//   const tokenBalance = contract.methods.balanceOf(FIRST_TEST_WALLET_ADDRESS).call().then(console.log);
-// } catch(err) {
-//   console.log(err);
-// }
-

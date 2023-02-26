@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-// import { getERC20 } from './helpers/getERC20Tokens';
 import { coinsRouter } from './routes/coinsRouter';
+import { balanceJob } from './helpers/balanceJob';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -15,4 +15,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on http:/localhost:${PORT}`)
 });
 
-// getERC20();
+balanceJob();

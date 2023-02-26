@@ -17,7 +17,6 @@ export const getCoinBalanceFromTestWallet = async (address: string) => {
   parsedData.forEach(async({ name, platforms: { ethereum }}) => {
     const contract = new web3.eth.Contract(balanceOfAbi as AbiItem[], ethereum);
     const coinBalance = await contract.methods.balanceOf(address).call().catch(console.log);
-    console.log(coinBalance);
 
     if (coinBalance > 0 && typeof coinBalance !== 'undefined') {
       const balance = web3.utils.fromWei(
@@ -56,6 +55,8 @@ export const getCoinBalanceFromTestWallet = async (address: string) => {
   return result;
 }
 
+// This funciton violates the DRY principles, but I thought it would be easier to understand that if I included it as an if statement in the main function
+
 export const getCoinBalanceFromWhaleWallet = async (address: string) => {
   const coinListFilePath: string = path.resolve(dirName, resultFileName);
   const data = await fs.readFile(coinListFilePath, 'utf-8');
@@ -66,7 +67,6 @@ export const getCoinBalanceFromWhaleWallet = async (address: string) => {
   parsedData.forEach(async({ name, platforms: { ethereum }}) => {
     const contract = new web3.eth.Contract(balanceOfAbi as AbiItem[], ethereum);
     const coinBalance = await contract.methods.balanceOf(address).call().catch(console.log);
-    console.log(coinBalance);
 
     if (coinBalance > 0 && typeof coinBalance !== 'undefined') {
       const balance = web3.utils.fromWei(

@@ -37,5 +37,6 @@ Both of them can be found in `src/config/config.ts` file along with other `web3.
 `coins-list-unsorted.json` - is the coin list obtained from coingecko address provided in test task description.
 `ERC20-coins.json` - is the filtered with the help of `getERC20Tokens.ts` function located in `src/helpers` to only Ethereum tokens, coin list from the main list. Additionally this file contains manually added missing smart-contracts in order to retrieve all balances from the wallet provided in test task (referred to as First wallet above).
 
-Please be advised that running the function located in `getERC20Tokens.ts` will overwrite the `ERC20-coins.json` file which will lead to the manual data deletion.
+Please be advised that running the function located in `getERC20Tokens.ts` will overwrite the `ERC20-coins.json` file which will lead to the manually added data deletion and less balance results provided.
 
+The cron job for balance checks is created in `src/helpers/balanceJob.ts` file and is called in the `src/server.ts` file.
